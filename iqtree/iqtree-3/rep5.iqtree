@@ -1,0 +1,706 @@
+IQ-TREE 1.4.4 built Aug 28 2016
+
+Input file name: /Users/picciani/Dropbox/Manuscritos/Latitudinal/Para_submeter/Marine_Biology_III/Analises_18S/aqua/manual_trimming/marine-biology/iqtree-3/all.fasta.muscle-trimmed.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 528045
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh (2015)
+IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol. Biol. Evol., 32:268-274.
+http://dx.doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Bui Quang Minh, Minh Anh Thi Nguyen, and Arndt von Haeseler (2013) Ultrafast
+approximation for phylogenetic bootstrap. Mol. Biol. Evol., 30:1188-1195.
+http://dx.doi.org/10.1093/molbev/mst024
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 148 sequences with 1422 nucleotide sites
+Number of constant sites: 921 (= 64.7679% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 923 (= 64.9086% of all sites)
+Number of distinct site patterns: 469
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+G4
+
+Rate parameter R:
+
+  A-C: 1.4513
+  A-G: 5.2955
+  A-T: 1.4513
+  C-G: 1.0000
+  C-T: 10.2017
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2635
+  pi(C) = 0.19
+  pi(G) = 0.2685
+  pi(T) = 0.278
+
+Rate matrix Q:
+
+  A   -0.8624    0.1132    0.5836    0.1656
+  C     0.157    -1.431    0.1102     1.164
+  G    0.5727   0.07799   -0.7648    0.1141
+  T     0.157    0.7957    0.1102    -1.063
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.8712
+
+ Category  Relative_rate  Proportion
+  1         0.1106         0.25
+  2         0.4343         0.25
+  3         0.9749         0.25
+  4         2.48           0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7087.6926 (s.e. 199.0642)
+Unconstrained log-likelihood (without tree): -5537.5164
+Number of free parameters (#branches + #model parameters): 300
+Akaike information criterion (AIC) score: 14775.3851
+Corrected Akaike information criterion (AICc) score: 14936.4913
+Bayesian information criterion (BIC) score: 16353.3310
+
+Total tree length (sum of branch lengths): 0.5431
+Sum of internal branch lengths: 0.1592 (29.3091% of tree length)
+
+WARNING: 96 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GU362426_Gymnodinium_catenatum' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----------------------------GU362426_Gymnodinium_catenatum
+|
++------------EF492511
+|
+|                    +----------JF791031
++--------------------| (100)
+                     |                             +--AY160124.1_Symbiodinium_sp._G15
+                     |            +----------------| (100)
+                     |            |                +**HE653239_Symbiodinium_voratum
+                     |         +--| (92)
+                     |         |  |                                                                             +------AJ271758.1_Symbiodinium_sp.
+                     |         |  |                                                                          +**| (12)
+                     |         |  |                                                                          |  |  +--AB055917.1_Symbiodinium_sp.
+                     |         |  |                                                                          |  +**| (6)
+                     |         |  |                                                                          |     +**AB016572.1_Symbiodinium_sp.
+                     |         |  |                                                                       +**| (14)
+                     |         |  |                                                                       |  +--AJ271757.1_Symbiodinium_sp.
+                     |         |  |                                                                    +**| (17)
+                     |         |  |                                                                    |  +--AB863030.1_Symbiodinium_sp.
+                     |         |  |                                                                 +**| (20)
+                     |         |  |                                                                 |  |  +**AB016579.1_Symbiodinium_sp.
+                     |         |  |                                                                 |  +**|
+                     |         |  |                                                                 |     +**AB183640.1_Symbiodinium_sp.
+                     |         |  |                                                              +**| (15)
+                     |         |  |                                                              |  +----AJ271759.1_Symbiodinium_sp.
+                     |         |  |                                                           +--| (99)
+                     |         |  |                                                           |  +---AJ271756.1_Symbiodinium_sp.
+                     |         |  |                                                        +**| (21)
+                     |         |  |                                                        |  +**AR1corrigido
+                     |         |  |                                                     +**| (17)
+                     |         |  |                                                     |  +--AF238256.1_Symbiodinium_sp._Type_A
+                     |         |  |                                                  +**| (10)
+                     |         |  |                                                  |  |                             +**AB016581.1_Symbiodinium_sp.
+                     |         |  |                                                  |  |                          +**|
+                     |         |  |                                                  |  |                          |  +**AB016573.1_Symbiodinium_sp.
+                     |         |  |                                                  |  |                       +**|
+                     |         |  |                                                  |  |                       |  +**AR3corrigido3
+                     |         |  |                                                  |  |                    +**|
+                     |         |  |                                                  |  |                    |  +**AR2corrigido
+                     |         |  |                                                  |  |                 +**|
+                     |         |  |                                                  |  |                 |  +**AB085911.1_Symbiodinium_sp.
+                     |         |  |                                                  |  |              +**|
+                     |         |  |                                                  |  |              |  +**AR8corrigido1
+                     |         |  |                                                  |  |           +**|
+                     |         |  |                                                  |  |           |  +**AR4corrigido1
+                     |         |  |                                                  |  |        +**|
+                     |         |  |                                                  |  |        |  +**BZ19corrigido
+                     |         |  |                                                  |  |     +**|
+                     |         |  |                                                  |  |     |  +**LK934674.1_Symbiodinium_sp.
+                     |         |  |                                                  |  |  +**|
+                     |         |  |                                                  |  |  |  +**BZ17corrigido
+                     |         |  |                                                  |  +**|
+                     |         |  |                                                  |     +**AR11corrigido
+                     |         |  |                                               +**| (7)
+                     |         |  |                                               |  +**AR10corrigido
+                     |         |  |                                            +**| (10)
+                     |         |  |                                            |  +**AB016574.1_Symbiodinium_sp.
+                     |         |  |                                         +--| (94)
+                     |         |  |                                         |  +--AY456113.1_Symbiodinium_sp.
+                     |         |  |                                      +**| (13)
+                     |         |  |                                      |  +---AJ271754.1_Symbiodinium_sp.
+                     |         |  |                                   +**| (9)
+                     |         |  |                                   |  +--KU188513.1_Symbiodinium_sp.
+                     |         |  |                                +**| (12)
+                     |         |  |                                |  +--KU188511.1_Symbiodinium_sp.
+                     |         |  |                             +**| (15)
+                     |         |  |                             |  +**LK934672.1_Symbiodinium_sp.
+                     |         |  |                          +**| (7)
+                     |         |  |                          |  +--KU188510.1_Symbiodinium_sp.
+                     |         |  |                       +**| (7)
+                     |         |  |                       |  +--KU188515.1_Symbiodinium_sp.
+                     |         |  |                    +**| (12)
+                     |         |  |                    |  |     +**LK934669.1_Symbiodinium_microadriaticum
+                     |         |  |                    |  |  +**|
+                     |         |  |                    |  |  |  +**AB085913.1_Symbiodinium_sp.
+                     |         |  |                    |  +**|
+                     |         |  |                    |     +**M88521.1_Symbiodinium_microadriaticum
+                     |         |  |                 +**| (6)
+                     |         |  |                 |  +**KU188509.1_Symbiodinium_sp.
+                     |         |  |              +**| (12)
+                     |         |  |              |  +--KU188508.1_Symbiodinium_sp.
+                     |         |  |           +**| (4)
+                     |         |  |           |  +---AJ271764.1_Symbiodinium_sp.
+                     |         |  |        +**| (4)
+                     |         |  |        |  |              +--L13718.1_Symbiodinium_meandrinae
+                     |         |  |        |  |           +--| (98)
+                     |         |  |        |  |           |  +**L13717.1_Symbiodinium_corculorum
+                     |         |  |        |  |        +**| (10)
+                     |         |  |        |  |        |  +--X62650.1_S.pilosum
+                     |         |  |        |  |     +**| (23)
+                     |         |  |        |  |     |  +--AB016724.1_Symbiodinium_sp.
+                     |         |  |        |  |  +--| (100)
+                     |         |  |        |  |  |  +--AB055918.1_Symbiodinium_sp.
+                     |         |  |        |  +--| (100)
+                     |         |  |        |     +**AB016723.1_Symbiodinium_sp.
+                     |         |  +--------| (100)
+                     |         |           |  +--KU188514.1_Symbiodinium_sp.
+                     |         |           +**| (6)
+                     |         |              +**KC848879.1_Symbiodinium_sp._clade_A
+                     +---------| (100)
+                               |                  +----AF238257.1_Symbiodinium_sp._Type_B
+                               |               +**| (55)
+                               |               |  |                 +--AY443023.1_Symbiodinium_sp.
+                               |               |  |              +**| (43)
+                               |               |  |              |  |     +**SS07corrigido
+                               |               |  |              |  |  +**| (40)
+                               |               |  |              |  |  |  |  +**BZ14corrigido
+                               |               |  |              |  |  |  +**| (14)
+                               |               |  |              |  |  |     +**SS08corrigido
+                               |               |  |              |  +--| (100)
+                               |               |  |              |     +**BZ15corrigido
+                               |               |  |           +**| (60)
+                               |               |  |           |  +--AY937258.1_Symbiodinium_sp.
+                               |               |  |        +--| (100)
+                               |               |  |        |  +**M88509.1_Symbiodinium_sp.
+                               |               |  |     +**| (30)
+                               |               |  |     |  +**LK934668.1_Symbiodinium_microadriaticum
+                               |               |  |  +**| (30)
+                               |               |  |  |  |     +**LK934663.1_Symbiodinium_microadriaticum
+                               |               |  |  |  |  +**|
+                               |               |  |  |  |  |  +**AB016722.2_Symbiodinium_sp.
+                               |               |  |  |  +**|
+                               |               |  |  |     +**AB085915.1_Symbiodinium_sp.
+                               |               |  +**| (27)
+                               |               |     +**KC848880.1_Symbiodinium_sp._clade_B_18S_ribosomal_RNA_gene_partial
+                               |       +-------| (100)
+                               |       |       |  +--AY456111.1_Symbiodinium_microadriaticum
+                               |       |       +--| (73)
+                               |       |          +**LK934670.1_Symbiodinium_minutum
+                               |    +--| (91)
+                               |    |  |                                                                                       +---HM067613.1_Symbiodinium_sp.
+                               |    |  |                                                                                   +---| (100)
+                               |    |  |                                                                                   |   |  +---HM067608.1_Symbiodinium_sp.
+                               |    |  |                                                                                   |   +--| (99)
+                               |    |  |                                                                                   |      +--HM067612.1_Symbiodinium_sp.
+                               |    |  |                                                                                +**| (99)
+                               |    |  |                                                                                |  +--AF255737.1_Symbiodinium_sp.
+                               |    |  |                                                                             +--| (96)
+                               |    |  |                                                                             |  +-----AB030646.1_Symbiodinium_sp.
+                               |    |  |                                                                          +**| (11)
+                               |    |  |                                                                          |  |                                +--AY051091.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |                             +--| (98)
+                               |    |  |                                                                          |  |                             |  |  +--AY051090.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |                             |  +**| (37)
+                               |    |  |                                                                          |  |                             |     |     +--AY051094.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |                             |     |  +**| (42)
+                               |    |  |                                                                          |  |                             |     |  |  +--KU197083.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                                          |  |                             |     +--| (100)
+                               |    |  |                                                                          |  |                             |        +--AY051093.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |                          +--| (78)
+                               |    |  |                                                                          |  |                          |  |  +--EF419285.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                                          |  |                          |  +--| (100)
+                               |    |  |                                                                          |  |                          |     |  +--EF419286.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                                          |  |                          |     +--| (98)
+                               |    |  |                                                                          |  |                          |        +--EF419287.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                                          |  |                       +--| (73)
+                               |    |  |                                                                          |  |                       |  |  +---AJ271777.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |                       |  +--| (88)
+                               |    |  |                                                                          |  |                       |     +-----AJ271774.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |                    +--| (71)
+                               |    |  |                                                                          |  |                    |  +-----AY051095.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |                 +--| (59)
+                               |    |  |                                                                          |  |                 |  +---------EF419284.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                                          |  |              +**| (23)
+                               |    |  |                                                                          |  |              |  +--EF419289.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                                          |  |           +--| (32)
+                               |    |  |                                                                          |  |           |  +--AB055916.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |        +**| (7)
+                               |    |  |                                                                          |  |        |  |  +-----AJ271767.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |        |  +**| (70)
+                               |    |  |                                                                          |  |        |     +-----AJ271762.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |     +**| (9)
+                               |    |  |                                                                          |  |     |  +--AJ271761.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  |  +**| (12)
+                               |    |  |                                                                          |  |  |  |  +------EF419283.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                                          |  |  |  +**| (79)
+                               |    |  |                                                                          |  |  |     +--AJ271768.1_Symbiodinium_sp.
+                               |    |  |                                                                          |  +**| (11)
+                               |    |  |                                                                          |     |  +**AB085912.1_Symbiodinium_sp.
+                               |    |  |                                                                          |     +--| (100)
+                               |    |  |                                                                          |        +**AB016595.1_Symbiodinium_sp.
+                               |    |  |                                                                       +**| (9)
+                               |    |  |                                                                       |  +---KC816670.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                                    +**| (5)
+                               |    |  |                                                                    |  |              +--AF290917.1_Symbiodinium_sp.
+                               |    |  |                                                                    |  |           +--| (99)
+                               |    |  |                                                                    |  |           |  +--AF290918.1_Symbiodinium_sp.
+                               |    |  |                                                                    |  |        +--| (99)
+                               |    |  |                                                                    |  |        |  |   +**AY051089.1_Symbiodinium_sp.
+                               |    |  |                                                                    |  |        |  +---| (100)
+                               |    |  |                                                                    |  |        |      +**AY139192.1_Symbiodinium_sp.
+                               |    |  |                                                                    |  |     +**| (39)
+                               |    |  |                                                                    |  |     |  +----AF271292.1_Symbiodinium_sp.
+                               |    |  |                                                                    |  |  +**| (16)
+                               |    |  |                                                                    |  |  |  +--AJ271775.1_Symbiodinium_sp.
+                               |    |  |                                                                    |  +--| (34)
+                               |    |  |                                                                    |     +----AF271291.1_Symbiodinium_sp.
+                               |    |  |                                                                 +**| (13)
+                               |    |  |                                                                 |  |     +-------AB126928.1_Symbiodinium
+                               |    |  |                                                                 |  |  +**| (5)
+                               |    |  |                                                                 |  |  |  |  +---KC816640.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                                 |  |  |  +**| (14)
+                               |    |  |                                                                 |  |  |     |  +--JN255733.1_Symbiodinium_sp.
+                               |    |  |                                                                 |  |  |     +--| (99)
+                               |    |  |                                                                 |  |  |        +--JN255734.1_Symbiodinium_sp.
+                               |    |  |                                                                 |  +--| (19)
+                               |    |  |                                                                 |     +--KC816660.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                              +**| (10)
+                               |    |  |                                                              |  |     +**AB016539.1_Symbiodinium_sp.
+                               |    |  |                                                              |  |  +**|
+                               |    |  |                                                              |  |  |  +**RF17Acorrigido
+                               |    |  |                                                              |  +**|
+                               |    |  |                                                              |     +**RF32corrigido
+                               |    |  |                                                           +**| (5)
+                               |    |  |                                                           |  |  +--AB055911.1_Symbiodinium_sp.
+                               |    |  |                                                           |  +**| (87)
+                               |    |  |                                                           |     +--JN255738.1_Symbiodinium_sp.
+                               |    |  |                                                        +**| (11)
+                               |    |  |                                                        |  |           +--EF419290.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                        |  |     +-----| (100)
+                               |    |  |                                                        |  |     |     +---EF419291.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                        |  |  +**| (83)
+                               |    |  |                                                        |  |  |  +---EF419288.1_Symbiodinium_sp._clade_C
+                               |    |  |                                                        |  +--| (33)
+                               |    |  |                                                        |     |  +--AB126929.1_Symbiodinium
+                               |    |  |                                                        |     +**| (26)
+                               |    |  |                                                        |        +--AB126930.1_Symbiodinium
+                               |    |  |                                                     +**| (12)
+                               |    |  |                                                     |  +**EF036539.1_Symbiodinium_goreaui
+                               |    |  |                                                  +**| (10)
+                               |    |  |                                                  |  |  +--AY525027.1_Symbiodinium_sp.
+                               |    |  |                                                  |  +--| (97)
+                               |    |  |                                                  |     +--AB126926.1_Symbiodinium
+                               |    |  |                                               +**| (11)
+                               |    |  |                                               |  |  +---AJ271766.1_Symbiodinium_sp.
+                               |    |  |                                               |  +--| (85)
+                               |    |  |                                               |     +--JN255739.1_Symbiodinium_sp.
+                               |    |  |                                            +**| (8)
+                               |    |  |                                            |  |  +----DQ838542.1_Symbiodinium_sp._clade_D
+                               |    |  |                                            |  +--| (33)
+                               |    |  |                                            |     +---AY051099.1_Symbiodinium_sp.
+                               |    |  |                                         +**| (11)
+                               |    |  |                                         |  +--AJ271776.1_Symbiodinium_sp.
+                               |    |  |                                      +**| (11)
+                               |    |  |                                      |  +--KC848882.1_Symbiodinium_sp._clade_C
+                               |    |  |                                   +**| (5)
+                               |    |  |                                   |  +---AF238260.1_Symbiodinium_sp.
+                               |    |  |                                +**| (4)
+                               |    |  |                                |  |  +--KC816632.1_Symbiodinium_sp._clade_C
+                               |    |  |                                |  +--| (98)
+                               |    |  |                                |     +--KC816659.1_Symbiodinium_sp._clade_C
+                               |    |  |                             +**| (11)
+                               |    |  |                             |  +---AF238258.1_Symbiodinium_sp._Type_C
+                               |    |  |                          +**| (11)
+                               |    |  |                          |  +--AB016580.1_Symbiodinium_sp.
+                               |    |  |                       +**| (14)
+                               |    |  |                       |  |  +---AJ271773.1_Symbiodinium_sp.
+                               |    |  |                       |  +**| (43)
+                               |    |  |                       |     +--JN255737.1_Symbiodinium_sp.
+                               |    |  |                    +**| (4)
+                               |    |  |                    |  +---AB126931.1_Symbiodinium
+                               |    |  |                 +**| (8)
+                               |    |  |                 |  +---AJ271765.1_Symbiodinium_sp.
+                               |    |  |              +**| (5)
+                               |    |  |              |  +--KC816631.1_Symbiodinium_sp._clade_C
+                               |    |  |           +**| (6)
+                               |    |  |           |  +**RF33Acorrigido
+                               |    |  |        +**| (11)
+                               |    |  |        |  +--DQ838543.1_Symbiodinium_sp._type_C
+                               |    |  |     +**| (7)
+                               |    |  |     |  +---AJ271760.1_Symbiodinium_sp.
+                               |    |  |  +--| (96)
+                               |    |  |  |  +----AF238259.1_Symbiodinium_sp._Type_C2
+                               |    |  +--| (99)
+                               |    |     |  +---U10893.1_Symbiodinium_sp.
+                               |    |     +--| (100)
+                               |    |        |  +**LK934673.1_Symbiodinium_sp.
+                               |    |        +**| (35)
+                               |    |           |     +**LK934666.1_Symbiodinium_kawagutii
+                               |    |           |  +**|
+                               |    |           |  |  +**HQ822131.1_Symbiodinium_kawagutii
+                               |    |           +--| (100)
+                               |    |              +**AB016594.1_Symbiodinium_sp.
+                               +----| (99)
+                                    |  +--AB016578.1_Symbiodinium
+                                    +--| (80)
+                                       |   +-----AB055914.1_Symbiodinium_sp.
+                                       +---| (92)
+                                           |        +--AF238262.1_Symbiodinium
+                                           |     +**| (40)
+                                           |     |  +**KC848881.1_Symbiodinium_sp._clade
+                                           |  +--| (99)
+                                           |  |  +--AF238261.1_Symbiodinium_sp._Type_E
+                                           +**| (48)
+                                              +**AB055915.1_Symbiodinium_sp.
+
+Tree in newick format:
+
+(GU362426_Gymnodinium_catenatum:0.031622,EF492511:0.014714,(JF791031:0.012412,(((AY160124.1_Symbiodinium_sp._G15:0.001428,HE653239_Symbiodinium_voratum:0.000002)100:0.018698,((((((((((((((((((((((((AJ271758.1_Symbiodinium_sp.:0.007956,(AB055917.1_Symbiodinium_sp.:0.002878,AB016572.1_Symbiodinium_sp.:0.000002)6:0.000002)12:0.000002,AJ271757.1_Symbiodinium_sp.:0.002153)14:0.000002,AB863030.1_Symbiodinium_sp.:0.000716)17:0.000002,(AB016579.1_Symbiodinium_sp.:0.000000,AB183640.1_Symbiodinium_sp.:0.000000):0.000002)20:0.000002,AJ271759.1_Symbiodinium_sp.:0.005767)15:0.000002,AJ271756.1_Symbiodinium_sp.:0.004314)99:0.002154,AR1corrigido:0.000002)21:0.000002,AF238256.1_Symbiodinium_sp._Type_A:0.001434)17:0.000002,((((((((((AB016581.1_Symbiodinium_sp.:0.000000,AB016573.1_Symbiodinium_sp.:0.000000):0.000000,AR3corrigido3:0.000000):0.000000,AR2corrigido:0.000000):0.000000,AB085911.1_Symbiodinium_sp.:0.000000):0.000000,AR8corrigido1:0.000000):0.000000,AR4corrigido1:0.000000):0.000000,BZ19corrigido:0.000000):0.000000,LK934674.1_Symbiodinium_sp.:0.000000):0.000000,BZ17corrigido:0.000000):0.000000,AR11corrigido:0.000000):0.000002)10:0.000002,AR10corrigido:0.000002)7:0.000002,AB016574.1_Symbiodinium_sp.:0.000002)10:0.000002,AY456113.1_Symbiodinium_sp.:0.000716)94:0.000716,AJ271754.1_Symbiodinium_sp.:0.005046)13:0.000002,KU188513.1_Symbiodinium_sp.:0.000717)9:0.000002,KU188511.1_Symbiodinium_sp.:0.001436)12:0.000002,LK934672.1_Symbiodinium_sp.:0.000002)15:0.000002,KU188510.1_Symbiodinium_sp.:0.000718)7:0.000002,KU188515.1_Symbiodinium_sp.:0.002879)7:0.000002,((LK934669.1_Symbiodinium_microadriaticum:0.000000,AB085913.1_Symbiodinium_sp.:0.000000):0.000000,M88521.1_Symbiodinium_microadriaticum:0.000000):0.000002)12:0.000002,KU188509.1_Symbiodinium_sp.:0.000002)6:0.000002,KU188508.1_Symbiodinium_sp.:0.002881)12:0.000002,AJ271764.1_Symbiodinium_sp.:0.004328)4:0.000002,(((((L13718.1_Symbiodinium_meandrinae:0.001438,L13717.1_Symbiodinium_corculorum:0.000002)98:0.000718,X62650.1_S.pilosum:0.000718)10:0.000002,AB016724.1_Symbiodinium_sp.:0.000717)23:0.000002,AB055918.1_Symbiodinium_sp.:0.001435)100:0.000717,AB016723.1_Symbiodinium_sp.:0.000002)100:0.002156)4:0.000002,(KU188514.1_Symbiodinium_sp.:0.001436,KC848879.1_Symbiodinium_sp._clade_A:0.000002)6:0.000002)100:0.010346)92:0.002439,((((AF238257.1_Symbiodinium_sp._Type_B:0.005755,((((((AY443023.1_Symbiodinium_sp.:0.001430,((SS07corrigido:0.000002,(BZ14corrigido:0.000002,SS08corrigido:0.000002)14:0.000002)40:0.000002,BZ15corrigido:0.000002)100:0.000713)43:0.000002,AY937258.1_Symbiodinium_sp.:0.001427)60:0.000002,M88509.1_Symbiodinium_sp.:0.000002)100:0.000714,LK934668.1_Symbiodinium_microadriaticum:0.000002)30:0.000002,((LK934663.1_Symbiodinium_microadriaticum:0.000000,AB016722.2_Symbiodinium_sp.:0.000000):0.000000,AB085915.1_Symbiodinium_sp.:0.000000):0.000002)30:0.000002,KC848880.1_Symbiodinium_sp._clade_B_18S_ribosomal_RNA_gene_partial:0.000002)27:0.000002)55:0.000002,(AY456111.1_Symbiodinium_microadriaticum:0.000713,LK934670.1_Symbiodinium_minutum:0.000002)73:0.000711)100:0.008776,(((((((((((((((((((((((((((((HM067613.1_Symbiodinium_sp.:0.005067,(HM067608.1_Symbiodinium_sp.:0.005055,HM067612.1_Symbiodinium_sp.:0.002872)99:0.002134)100:0.004371,AF255737.1_Symbiodinium_sp.:0.002882)99:0.000684,AB030646.1_Symbiodinium_sp.:0.006485)96:0.000727,(((((((((((AY051091.1_Symbiodinium_sp.:0.003582,(AY051090.1_Symbiodinium_sp.:0.002869,((AY051094.1_Symbiodinium_sp.:0.002860,KU197083.1_Symbiodinium_sp._clade_C:0.002143)42:0.000002,AY051093.1_Symbiodinium_sp.:0.002146)100:0.001428)37:0.000002)98:0.002889,(EF419285.1_Symbiodinium_sp._clade_C:0.003616,(EF419286.1_Symbiodinium_sp._clade_C:0.002867,EF419287.1_Symbiodinium_sp._clade_C:0.002881)98:0.001403)100:0.002899)78:0.000709,(AJ271777.1_Symbiodinium_sp.:0.005056,AJ271774.1_Symbiodinium_sp.:0.006500)88:0.002884)73:0.002017,AY051095.1_Symbiodinium_sp.:0.006662)71:0.002149,EF419284.1_Symbiodinium_sp._clade_C:0.011496)59:0.000866,EF419289.1_Symbiodinium_sp._clade_C:0.000714)23:0.000002,AB055916.1_Symbiodinium_sp.:0.000715)32:0.000713,(AJ271767.1_Symbiodinium_sp.:0.007255,AJ271762.1_Symbiodinium_sp.:0.006535)70:0.000672)7:0.000002,AJ271761.1_Symbiodinium_sp.:0.002146)9:0.000002,(EF419283.1_Symbiodinium_sp._clade_C:0.008021,AJ271768.1_Symbiodinium_sp.:0.003653)79:0.000656)12:0.000002,(AB085912.1_Symbiodinium_sp.:0.000002,AB016595.1_Symbiodinium_sp.:0.000002)100:0.000714)11:0.000002)11:0.000002,KC816670.1_Symbiodinium_sp._clade_C:0.004308)9:0.000002,(((((AF290917.1_Symbiodinium_sp.:0.001436,AF290918.1_Symbiodinium_sp.:0.001429)99:0.002880,(AY051089.1_Symbiodinium_sp.:0.000002,AY139192.1_Symbiodinium_sp.:0.000002)100:0.004350)99:0.002899,AF271292.1_Symbiodinium_sp.:0.005801)39:0.000698,AJ271775.1_Symbiodinium_sp.:0.002870)16:0.000002,AF271291.1_Symbiodinium_sp.:0.005776)34:0.000712)5:0.000002,((AB126928.1_Symbiodinium:0.009417,(KC816640.1_Symbiodinium_sp._clade_C:0.005036,(JN255733.1_Symbiodinium_sp.:0.000714,JN255734.1_Symbiodinium_sp.:0.001434)99:0.002149)14:0.000002)5:0.000002,KC816660.1_Symbiodinium_sp._clade_C:0.001431)19:0.000714)13:0.000002,((AB016539.1_Symbiodinium_sp.:0.000000,RF17Acorrigido:0.000000):0.000000,RF32corrigido:0.000000):0.000002)10:0.000002,(AB055911.1_Symbiodinium_sp.:0.002890,JN255738.1_Symbiodinium_sp.:0.002167)87:0.000700)5:0.000002,(((EF419290.1_Symbiodinium_sp._clade_C:0.000712,EF419291.1_Symbiodinium_sp._clade_C:0.005022)100:0.007272,EF419288.1_Symbiodinium_sp._clade_C:0.004368)83:0.000666,(AB126929.1_Symbiodinium:0.003584,AB126930.1_Symbiodinium:0.002146)26:0.000002)33:0.000714)11:0.000002,EF036539.1_Symbiodinium_goreaui:0.000002)12:0.000002,(AY525027.1_Symbiodinium_sp.:0.002157,AB126926.1_Symbiodinium:0.002147)97:0.000716)10:0.000002,(AJ271766.1_Symbiodinium_sp.:0.005034,JN255739.1_Symbiodinium_sp.:0.002152)85:0.000717)11:0.000002,(DQ838542.1_Symbiodinium_sp._clade_D:0.005767,AY051099.1_Symbiodinium_sp.:0.004315)33:0.000719)8:0.000002,AJ271776.1_Symbiodinium_sp.:0.003590)11:0.000002,KC848882.1_Symbiodinium_sp._clade_C:0.002169)11:0.000002,AF238260.1_Symbiodinium_sp.:0.004307)5:0.000002,(KC816632.1_Symbiodinium_sp._clade_C:0.001435,KC816659.1_Symbiodinium_sp._clade_C:0.001431)98:0.001431)4:0.000002,AF238258.1_Symbiodinium_sp._Type_C:0.005052)11:0.000002,AB016580.1_Symbiodinium_sp.:0.000717)11:0.000002,(AJ271773.1_Symbiodinium_sp.:0.005062,JN255737.1_Symbiodinium_sp.:0.002893)43:0.000698)14:0.000002,AB126931.1_Symbiodinium:0.004316)4:0.000002,AJ271765.1_Symbiodinium_sp.:0.005035)8:0.000002,KC816631.1_Symbiodinium_sp._clade_C:0.002147)5:0.000002,RF33Acorrigido:0.000002)6:0.000002,DQ838543.1_Symbiodinium_sp._type_C:0.003587)11:0.000002,AJ271760.1_Symbiodinium_sp.:0.005029)7:0.000002,AF238259.1_Symbiodinium_sp._Type_C2:0.005759)96:0.001431,(U10893.1_Symbiodinium_sp.:0.004330,(LK934673.1_Symbiodinium_sp.:0.000002,((LK934666.1_Symbiodinium_kawagutii:0.000000,HQ822131.1_Symbiodinium_kawagutii:0.000000):0.000002,AB016594.1_Symbiodinium_sp.:0.000002)100:0.000716)35:0.000002)100:0.002882)99:0.003969)91:0.002431,(AB016578.1_Symbiodinium:0.002899,(AB055914.1_Symbiodinium_sp.:0.006476,(((AF238262.1_Symbiodinium:0.003575,KC848881.1_Symbiodinium_sp._clade:0.000002)40:0.000002,AF238261.1_Symbiodinium_sp._Type_E:0.002142)99:0.002859,AB055915.1_Symbiodinium_sp.:0.000002)48:0.000003)92:0.004329)80:0.000847)99:0.006208)100:0.011682)100:0.023357);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -7088.847976
+Robinson-Foulds distance between ML tree and consensus tree: 137
+
+Branches with bootstrap support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----------------------------GU362426_Gymnodinium_catenatum
+|
++------------EF492511
+|
+|                    +----------JF791031
++--------------------| (100)
+                     |                             +--AY160124.1_Symbiodinium_sp._G15
+                     |            +----------------| (100)
+                     |            |                +--HE653239_Symbiodinium_voratum
+                     |         +--| (92)
+                     |         |  |                                                        +------AJ271758.1_Symbiodinium_sp.
+                     |         |  |                                                     +--| (11)
+                     |         |  |                                                     |  |        +----AJ271759.1_Symbiodinium_sp.
+                     |         |  |                                                     |  |     +--| (37)
+                     |         |  |                                                     |  |     |  +---AJ271756.1_Symbiodinium_sp.
+                     |         |  |                                                     |  |  +--| (10)
+                     |         |  |                                                     |  |  |  +--AB863030.1_Symbiodinium_sp.
+                     |         |  |                                                     |  +--| (11)
+                     |         |  |                                                     |     |  +**AB016579.1_Symbiodinium_sp.
+                     |         |  |                                                     |     +--|
+                     |         |  |                                                     |        +**AB183640.1_Symbiodinium_sp.
+                     |         |  |                                                  +--| (14)
+                     |         |  |                                                  |  +--AB016572.1_Symbiodinium_sp.
+                     |         |  |                                               +--| (22)
+                     |         |  |                                               |  +--AJ271757.1_Symbiodinium_sp.
+                     |         |  |                                            +--| (99)
+                     |         |  |                                            |  +--AB055917.1_Symbiodinium_sp.
+                     |         |  |                                         +--| (28)
+                     |         |  |                                         |  +--AY456113.1_Symbiodinium_sp.
+                     |         |  |                                      +--| (18)
+                     |         |  |                                      |  +--AR10corrigido
+                     |         |  |                                   +--| (22)
+                     |         |  |                                   |  +--AR1corrigido
+                     |         |  |                                +--| (19)
+                     |         |  |                                |  +--AF238256.1_Symbiodinium_sp._Type_A
+                     |         |  |                             +--| (27)
+                     |         |  |                             |  |                             +**AB016581.1_Symbiodinium_sp.
+                     |         |  |                             |  |                          +**|
+                     |         |  |                             |  |                          |  +**AB085911.1_Symbiodinium_sp.
+                     |         |  |                             |  |                       +**|
+                     |         |  |                             |  |                       |  +**AR2corrigido
+                     |         |  |                             |  |                    +**|
+                     |         |  |                             |  |                    |  +**LK934674.1_Symbiodinium_sp.
+                     |         |  |                             |  |                 +**|
+                     |         |  |                             |  |                 |  +**AB016573.1_Symbiodinium_sp.
+                     |         |  |                             |  |              +**|
+                     |         |  |                             |  |              |  +**BZ19corrigido
+                     |         |  |                             |  |           +**|
+                     |         |  |                             |  |           |  +**BZ17corrigido
+                     |         |  |                             |  |        +**|
+                     |         |  |                             |  |        |  +**AR4corrigido1
+                     |         |  |                             |  |     +**|
+                     |         |  |                             |  |     |  +**AR3corrigido3
+                     |         |  |                             |  |  +**|
+                     |         |  |                             |  |  |  +**AR8corrigido1
+                     |         |  |                             |  +--|
+                     |         |  |                             |     +**AR11corrigido
+                     |         |  |                          +--| (94)
+                     |         |  |                          |  +--AB016574.1_Symbiodinium_sp.
+                     |         |  |                       +--| (13)
+                     |         |  |                       |  +---AJ271754.1_Symbiodinium_sp.
+                     |         |  |                    +--| (9)
+                     |         |  |                    |  +--KU188513.1_Symbiodinium_sp.
+                     |         |  |                 +--| (12)
+                     |         |  |                 |  +--KU188511.1_Symbiodinium_sp.
+                     |         |  |              +--| (15)
+                     |         |  |              |  +--LK934672.1_Symbiodinium_sp.
+                     |         |  |           +--| (5)
+                     |         |  |           |  |     +**LK934669.1_Symbiodinium_microadriaticum
+                     |         |  |           |  |  +**|
+                     |         |  |           |  |  |  +**M88521.1_Symbiodinium_microadriaticum
+                     |         |  |           |  +--|
+                     |         |  |           |     +**AB085913.1_Symbiodinium_sp.
+                     |         |  |        +--| (20)
+                     |         |  |        |  |     +---AJ271764.1_Symbiodinium_sp.
+                     |         |  |        |  |  +--| (15)
+                     |         |  |        |  |  |  +--KU188515.1_Symbiodinium_sp.
+                     |         |  |        |  +--| (12)
+                     |         |  |        |  |  +--KU188509.1_Symbiodinium_sp.
+                     |         |  |        |  |
+                     |         |  |        |  |                 +--L13718.1_Symbiodinium_meandrinae
+                     |         |  |        |  |              +--| (98)
+                     |         |  |        |  |              |  +--L13717.1_Symbiodinium_corculorum
+                     |         |  |        |  |           +--| (21)
+                     |         |  |        |  |           |  +--AB055918.1_Symbiodinium_sp.
+                     |         |  |        |  |        +--| (33)
+                     |         |  |        |  |        |  +--X62650.1_S.pilosum
+                     |         |  |        |  |     +--| (100)
+                     |         |  |        |  |     |  +--AB016724.1_Symbiodinium_sp.
+                     |         |  |        |  |  +--| (100)
+                     |         |  |        |  |  |  +**AB016723.1_Symbiodinium_sp.
+                     |         |  |        |  +--| (8)
+                     |         |  |        |  |  +--KU188510.1_Symbiodinium_sp.
+                     |         |  |        |  |
+                     |         |  |        |  |  +--KU188514.1_Symbiodinium_sp.
+                     |         |  |        |  +--| (6)
+                     |         |  |        |     +--KC848879.1_Symbiodinium_sp._clade_A
+                     |         |  +--------| (100)
+                     |         |           +--KU188508.1_Symbiodinium_sp.
+                     +---------| (100)
+                               |                  +----AF238257.1_Symbiodinium_sp._Type_B
+                               |               +--| (55)
+                               |               |  |                 +--AY443023.1_Symbiodinium_sp.
+                               |               |  |              +--| (43)
+                               |               |  |              |  |        +--SS07corrigido
+                               |               |  |              |  |     +--| (21)
+                               |               |  |              |  |     |  +--BZ14corrigido
+                               |               |  |              |  |  +--| (40)
+                               |               |  |              |  |  |  +--SS08corrigido
+                               |               |  |              |  +--| (100)
+                               |               |  |              |     +--BZ15corrigido
+                               |               |  |           +--| (60)
+                               |               |  |           |  +--AY937258.1_Symbiodinium_sp.
+                               |               |  |        +--| (100)
+                               |               |  |        |  +--M88509.1_Symbiodinium_sp.
+                               |               |  |     +--| (30)
+                               |               |  |     |  +--LK934668.1_Symbiodinium_microadriaticum
+                               |               |  |  +--| (30)
+                               |               |  |  |  |     +**LK934663.1_Symbiodinium_microadriaticum
+                               |               |  |  |  |  +**|
+                               |               |  |  |  |  |  +**AB016722.2_Symbiodinium_sp.
+                               |               |  |  |  +--|
+                               |               |  |  |     +**AB085915.1_Symbiodinium_sp.
+                               |               |  +--| (27)
+                               |               |     +--KC848880.1_Symbiodinium_sp._clade_B_18S_ribosomal_RNA_gene_partial
+                               |       +-------| (100)
+                               |       |       |  +--AY456111.1_Symbiodinium_microadriaticum
+                               |       |       +--| (73)
+                               |       |          +--LK934670.1_Symbiodinium_minutum
+                               |    +--| (91)
+                               |    |  |                                                            +---HM067613.1_Symbiodinium_sp.
+                               |    |  |                                                        +---| (100)
+                               |    |  |                                                        |   |  +---HM067608.1_Symbiodinium_sp.
+                               |    |  |                                                        |   +--| (99)
+                               |    |  |                                                        |      +--HM067612.1_Symbiodinium_sp.
+                               |    |  |                                                     +--| (99)
+                               |    |  |                                                     |  +--AF255737.1_Symbiodinium_sp.
+                               |    |  |                                                  +--| (96)
+                               |    |  |                                                  |  +-----AB030646.1_Symbiodinium_sp.
+                               |    |  |                                               +--| (2)
+                               |    |  |                                               |  |  +-----AJ271767.1_Symbiodinium_sp.
+                               |    |  |                                               |  +--| (70)
+                               |    |  |                                               |     +-----AJ271762.1_Symbiodinium_sp.
+                               |    |  |                                            +--| (12)
+                               |    |  |                                            |  |                                   +--EF419290.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |                             +-----| (100)
+                               |    |  |                                            |  |                             |     +---EF419291.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |                          +--| (83)
+                               |    |  |                                            |  |                          |  +---EF419288.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |                       +--| (30)
+                               |    |  |                                            |  |                       |  |                       +--AY051091.1_Symbiodinium_sp.
+                               |    |  |                                            |  |                       |  |                    +--| (40)
+                               |    |  |                                            |  |                       |  |                    |  |     +--AY051094.1_Symbiodinium_sp.
+                               |    |  |                                            |  |                       |  |                    |  |  +--| (42)
+                               |    |  |                                            |  |                       |  |                    |  |  |  +--KU197083.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |                       |  |                    |  +--| (100)
+                               |    |  |                                            |  |                       |  |                    |     +--AY051093.1_Symbiodinium_sp.
+                               |    |  |                                            |  |                       |  |                 +--| (98)
+                               |    |  |                                            |  |                       |  |                 |  +--AY051090.1_Symbiodinium_sp.
+                               |    |  |                                            |  |                       |  |              +--| (78)
+                               |    |  |                                            |  |                       |  |              |  |  +--EF419285.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |                       |  |              |  +--| (100)
+                               |    |  |                                            |  |                       |  |              |     |  +--EF419286.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |                       |  |              |     +--| (98)
+                               |    |  |                                            |  |                       |  |              |        +--EF419287.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |                       |  |           +--| (73)
+                               |    |  |                                            |  |                       |  |           |  |  +---AJ271777.1_Symbiodinium_sp.
+                               |    |  |                                            |  |                       |  |           |  +--| (88)
+                               |    |  |                                            |  |                       |  |           |     +-----AJ271774.1_Symbiodinium_sp.
+                               |    |  |                                            |  |                       |  |        +--| (71)
+                               |    |  |                                            |  |                       |  |        |  +-----AY051095.1_Symbiodinium_sp.
+                               |    |  |                                            |  |                       |  |     +--| (59)
+                               |    |  |                                            |  |                       |  |     |  +---------EF419284.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |                       |  |  +--| (23)
+                               |    |  |                                            |  |                       |  |  |  +--EF419289.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |                       |  +--| (32)
+                               |    |  |                                            |  |                       |     +--AB055916.1_Symbiodinium_sp.
+                               |    |  |                                            |  |                    +--| (12)
+                               |    |  |                                            |  |                    |  +---KC816670.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |                 +--| (12)
+                               |    |  |                                            |  |                 |  |  +-----AF271292.1_Symbiodinium_sp.
+                               |    |  |                                            |  |                 |  +--| (37)
+                               |    |  |                                            |  |                 |     +---AJ271765.1_Symbiodinium_sp.
+                               |    |  |                                            |  |              +--| (10)
+                               |    |  |                                            |  |              |  |     +---KC816640.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |              |  |  +--| (46)
+                               |    |  |                                            |  |              |  |  |  +--DQ838543.1_Symbiodinium_sp._type_C
+                               |    |  |                                            |  |              |  +--| (10)
+                               |    |  |                                            |  |              |     |  +--KC816632.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |              |     +--| (98)
+                               |    |  |                                            |  |              |        +--KC816659.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |           +--| (13)
+                               |    |  |                                            |  |           |  |  +------EF419283.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |           |  +--| (79)
+                               |    |  |                                            |  |           |     +--AJ271768.1_Symbiodinium_sp.
+                               |    |  |                                            |  |        +--| (12)
+                               |    |  |                                            |  |        |  |  +---AJ271773.1_Symbiodinium_sp.
+                               |    |  |                                            |  |        |  +--| (50)
+                               |    |  |                                            |  |        |     +---AJ271760.1_Symbiodinium_sp.
+                               |    |  |                                            |  |     +--| (9)
+                               |    |  |                                            |  |     |  +--RF33Acorrigido
+                               |    |  |                                            |  |  +--| (9)
+                               |    |  |                                            |  |  |  |     +--JN255733.1_Symbiodinium_sp.
+                               |    |  |                                            |  |  |  |  +--| (99)
+                               |    |  |                                            |  |  |  |  |  +--JN255734.1_Symbiodinium_sp.
+                               |    |  |                                            |  |  |  +--| (51)
+                               |    |  |                                            |  |  |     +--KC816660.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  +--| (9)
+                               |    |  |                                            |  |  +--KC848882.1_Symbiodinium_sp._clade_C
+                               |    |  |                                            |  |
+                               |    |  |                                            |  |  +--AB055911.1_Symbiodinium_sp.
+                               |    |  |                                            |  +--| (87)
+                               |    |  |                                            |     +--JN255738.1_Symbiodinium_sp.
+                               |    |  |                                         +--| (11)
+                               |    |  |                                         |  |     +----AF271291.1_Symbiodinium_sp.
+                               |    |  |                                         |  |  +--| (52)
+                               |    |  |                                         |  |  |  +--AJ271775.1_Symbiodinium_sp.
+                               |    |  |                                         |  +--| (9)
+                               |    |  |                                         |     +--EF036539.1_Symbiodinium_goreaui
+                               |    |  |                                      +--| (13)
+                               |    |  |                                      |  |           +--AF290917.1_Symbiodinium_sp.
+                               |    |  |                                      |  |        +--| (99)
+                               |    |  |                                      |  |        |  +--AF290918.1_Symbiodinium_sp.
+                               |    |  |                                      |  |     +--| (99)
+                               |    |  |                                      |  |     |  |   +--AY051089.1_Symbiodinium_sp.
+                               |    |  |                                      |  |     |  +---| (100)
+                               |    |  |                                      |  |     |      +--AY139192.1_Symbiodinium_sp.
+                               |    |  |                                      |  |  +--| (48)
+                               |    |  |                                      |  |  |  +---AF238259.1_Symbiodinium_sp._Type_C2
+                               |    |  |                                      |  +--| (11)
+                               |    |  |                                      |     |  +--AY525027.1_Symbiodinium_sp.
+                               |    |  |                                      |     +--| (97)
+                               |    |  |                                      |        +--AB126926.1_Symbiodinium
+                               |    |  |                                   +--| (11)
+                               |    |  |                                   |  |  +---AJ271766.1_Symbiodinium_sp.
+                               |    |  |                                   |  +--| (85)
+                               |    |  |                                   |     +--JN255739.1_Symbiodinium_sp.
+                               |    |  |                                +--| (9)
+                               |    |  |                                |  |  +-------AB126928.1_Symbiodinium
+                               |    |  |                                |  +--| (27)
+                               |    |  |                                |     +--AF238260.1_Symbiodinium_sp.
+                               |    |  |                             +--| (10)
+                               |    |  |                             |  +---AF238258.1_Symbiodinium_sp._Type_C
+                               |    |  |                          +--| (10)
+                               |    |  |                          |  +--AB016580.1_Symbiodinium_sp.
+                               |    |  |                       +--| (11)
+                               |    |  |                       |  |  +---AY051099.1_Symbiodinium_sp.
+                               |    |  |                       |  +--| (38)
+                               |    |  |                       |     |  +--AB126929.1_Symbiodinium
+                               |    |  |                       |     +--| (26)
+                               |    |  |                       |        +--AB126930.1_Symbiodinium
+                               |    |  |                    +--| (9)
+                               |    |  |                    |  +--KC816631.1_Symbiodinium_sp._clade_C
+                               |    |  |                 +--| (12)
+                               |    |  |                 |  |  +--AB085912.1_Symbiodinium_sp.
+                               |    |  |                 |  +--| (100)
+                               |    |  |                 |     +--AB016595.1_Symbiodinium_sp.
+                               |    |  |              +--| (9)
+                               |    |  |              |  +--AJ271761.1_Symbiodinium_sp.
+                               |    |  |           +--| (11)
+                               |    |  |           |  +---AB126931.1_Symbiodinium
+                               |    |  |        +--| (10)
+                               |    |  |        |  +--JN255737.1_Symbiodinium_sp.
+                               |    |  |     +--| (11)
+                               |    |  |     |  +-----DQ838542.1_Symbiodinium_sp._clade_D
+                               |    |  |  +--| (96)
+                               |    |  |  |  |  +--AJ271776.1_Symbiodinium_sp.
+                               |    |  |  |  +--| (9)
+                               |    |  |  |     |     +**AB016539.1_Symbiodinium_sp.
+                               |    |  |  |     |  +**|
+                               |    |  |  |     |  |  +**RF17Acorrigido
+                               |    |  |  |     +--|
+                               |    |  |  |        +**RF32corrigido
+                               |    |  +--| (99)
+                               |    |     |     +---U10893.1_Symbiodinium_sp.
+                               |    |     |  +--| (43)
+                               |    |     |  |  |     +**LK934666.1_Symbiodinium_kawagutii
+                               |    |     |  |  |  +--|
+                               |    |     |  |  |  |  +**HQ822131.1_Symbiodinium_kawagutii
+                               |    |     |  |  +--| (100)
+                               |    |     |  |     +--AB016594.1_Symbiodinium_sp.
+                               |    |     +--| (100)
+                               |    |        +--LK934673.1_Symbiodinium_sp.
+                               +----| (99)
+                                    |  +--AB016578.1_Symbiodinium
+                                    +--| (80)
+                                       |   +-----AB055914.1_Symbiodinium_sp.
+                                       +---| (92)
+                                           |        +--AF238262.1_Symbiodinium
+                                           |     +--| (43)
+                                           |     |  +--AF238261.1_Symbiodinium_sp._Type_E
+                                           |  +--| (99)
+                                           |  |  +--KC848881.1_Symbiodinium_sp._clade
+                                           +**| (48)
+                                              +--AB055915.1_Symbiodinium_sp.
+
+
+Consensus tree in newick format: 
+
+(GU362426_Gymnodinium_catenatum:0.0316470,EF492511:0.0147300,(JF791031:0.0124250,(((AY160124.1_Symbiodinium_sp._G15:0.0014300,HE653239_Symbiodinium_voratum:0.0000030)100:0.0187080,(((((((((((((((((AJ271758.1_Symbiodinium_sp.:0.0079620,(((AJ271759.1_Symbiodinium_sp.:0.0057720,AJ271756.1_Symbiodinium_sp.:0.0043170)37:0.0000030,AB863030.1_Symbiodinium_sp.:0.0007180)10:0.0000030,(AB016579.1_Symbiodinium_sp.:0.0000000,AB183640.1_Symbiodinium_sp.:0.0000000):0.0000030)11:0.0000030)11:0.0000030,AB016572.1_Symbiodinium_sp.:0.0000030)14:0.0000030,AJ271757.1_Symbiodinium_sp.:0.0021550)22:0.0000030,AB055917.1_Symbiodinium_sp.:0.0028810)99:0.0021570,AY456113.1_Symbiodinium_sp.:0.0007170)28:0.0000030,AR10corrigido:0.0000030)18:0.0000030,AR1corrigido:0.0000030)22:0.0000030,AF238256.1_Symbiodinium_sp._Type_A:0.0014360)19:0.0000030,((((((((((AB016581.1_Symbiodinium_sp.:0.0000000,AB085911.1_Symbiodinium_sp.:0.0000000):0.0000000,AR2corrigido:0.0000000):0.0000000,LK934674.1_Symbiodinium_sp.:0.0000000):0.0000000,AB016573.1_Symbiodinium_sp.:0.0000000):0.0000000,BZ19corrigido:0.0000000):0.0000000,BZ17corrigido:0.0000000):0.0000000,AR4corrigido1:0.0000000):0.0000000,AR3corrigido3:0.0000000):0.0000000,AR8corrigido1:0.0000000):0.0000000,AR11corrigido:0.0000000):0.0000030)27:0.0000030,AB016574.1_Symbiodinium_sp.:0.0000030)94:0.0007180,AJ271754.1_Symbiodinium_sp.:0.0050500)13:0.0000030,KU188513.1_Symbiodinium_sp.:0.0007190)9:0.0000030,KU188511.1_Symbiodinium_sp.:0.0014380)12:0.0000030,LK934672.1_Symbiodinium_sp.:0.0000030)15:0.0000030,((LK934669.1_Symbiodinium_microadriaticum:0.0000000,M88521.1_Symbiodinium_microadriaticum:0.0000000):0.0000000,AB085913.1_Symbiodinium_sp.:0.0000000):0.0000030)5:0.0000030,((AJ271764.1_Symbiodinium_sp.:0.0043310,KU188515.1_Symbiodinium_sp.:0.0028820)15:0.0000030,KU188509.1_Symbiodinium_sp.:0.0000030)12:0.0000030,((((((L13718.1_Symbiodinium_meandrinae:0.0014400,L13717.1_Symbiodinium_corculorum:0.0000030)98:0.0007190,AB055918.1_Symbiodinium_sp.:0.0014370)21:0.0000030,X62650.1_S.pilosum:0.0007190)33:0.0000030,AB016724.1_Symbiodinium_sp.:0.0007190)100:0.0007180,AB016723.1_Symbiodinium_sp.:0.0000020)100:0.0021580,KU188510.1_Symbiodinium_sp.:0.0007190)8:0.0000030,(KU188514.1_Symbiodinium_sp.:0.0014390,KC848879.1_Symbiodinium_sp._clade_A:0.0000030)6:0.0000030)20:0.0000030,KU188508.1_Symbiodinium_sp.:0.0028830)100:0.0103580)92:0.0024410,((((AF238257.1_Symbiodinium_sp._Type_B:0.0057600,((((((AY443023.1_Symbiodinium_sp.:0.0014320,(((SS07corrigido:0.0000030,BZ14corrigido:0.0000030)21:0.0000030,SS08corrigido:0.0000030)40:0.0000030,BZ15corrigido:0.0000030)100:0.0007140)43:0.0000030,AY937258.1_Symbiodinium_sp.:0.0014290)60:0.0000030,M88509.1_Symbiodinium_sp.:0.0000030)100:0.0007150,LK934668.1_Symbiodinium_microadriaticum:0.0000030)30:0.0000030,((LK934663.1_Symbiodinium_microadriaticum:0.0000000,AB016722.2_Symbiodinium_sp.:0.0000000):0.0000000,AB085915.1_Symbiodinium_sp.:0.0000000):0.0000030)30:0.0000030,KC848880.1_Symbiodinium_sp._clade_B_18S_ribosomal_RNA_gene_partial:0.0000030)27:0.0000030)55:0.0007120,(AY456111.1_Symbiodinium_microadriaticum:0.0007150,LK934670.1_Symbiodinium_minutum:0.0000030)73:0.0000030)100:0.0087880,((((((((((((((((((((HM067613.1_Symbiodinium_sp.:0.0050710,(HM067608.1_Symbiodinium_sp.:0.0050590,HM067612.1_Symbiodinium_sp.:0.0028740)99:0.0021380)100:0.0043740,AF255737.1_Symbiodinium_sp.:0.0028850)99:0.0006850,AB030646.1_Symbiodinium_sp.:0.0064910)96:0.0007280,(AJ271767.1_Symbiodinium_sp.:0.0072610,AJ271762.1_Symbiodinium_sp.:0.0065400)70:0.0006720)2:0.0000030,(((((((((((EF419290.1_Symbiodinium_sp._clade_C:0.0007120,EF419291.1_Symbiodinium_sp._clade_C:0.0050270)100:0.0072640,EF419288.1_Symbiodinium_sp._clade_C:0.0043580)83:0.0006800,((((((((AY051091.1_Symbiodinium_sp.:0.0035860,((AY051094.1_Symbiodinium_sp.:0.0028620,KU197083.1_Symbiodinium_sp._clade_C:0.0021470)42:0.0000030,AY051093.1_Symbiodinium_sp.:0.0021500)100:0.0014300)40:0.0000030,AY051090.1_Symbiodinium_sp.:0.0028720)98:0.0028930,(EF419285.1_Symbiodinium_sp._clade_C:0.0036200,(EF419286.1_Symbiodinium_sp._clade_C:0.0028710,EF419287.1_Symbiodinium_sp._clade_C:0.0028840)98:0.0014050)100:0.0029030)78:0.0007110,(AJ271777.1_Symbiodinium_sp.:0.0050620,AJ271774.1_Symbiodinium_sp.:0.0065070)88:0.0028880)73:0.0020170,AY051095.1_Symbiodinium_sp.:0.0066700)71:0.0021540,EF419284.1_Symbiodinium_sp._clade_C:0.0115060)59:0.0008680,EF419289.1_Symbiodinium_sp._clade_C:0.0007150)23:0.0000030,AB055916.1_Symbiodinium_sp.:0.0007170)32:0.0000030)30:0.0007150,KC816670.1_Symbiodinium_sp._clade_C:0.0043120)12:0.0000030,(AF271292.1_Symbiodinium_sp.:0.0065050,AJ271765.1_Symbiodinium_sp.:0.0043120)37:0.0007180)12:0.0000030,((KC816640.1_Symbiodinium_sp._clade_C:0.0050360,DQ838543.1_Symbiodinium_sp._type_C:0.0028670)46:0.0007200,(KC816632.1_Symbiodinium_sp._clade_C:0.0014370,KC816659.1_Symbiodinium_sp._clade_C:0.0014330)98:0.0014330)10:0.0000030)10:0.0000030,(EF419283.1_Symbiodinium_sp._clade_C:0.0080270,AJ271768.1_Symbiodinium_sp.:0.0036570)79:0.0006570)13:0.0000030,(AJ271773.1_Symbiodinium_sp.:0.0050780,AJ271760.1_Symbiodinium_sp.:0.0043420)50:0.0006910)12:0.0000030,RF33Acorrigido:0.0000030)9:0.0000030,((JN255733.1_Symbiodinium_sp.:0.0007150,JN255734.1_Symbiodinium_sp.:0.0014360)99:0.0021600,KC816660.1_Symbiodinium_sp._clade_C:0.0014420)51:0.0007090)9:0.0000030,KC848882.1_Symbiodinium_sp._clade_C:0.0021710)9:0.0000030,(AB055911.1_Symbiodinium_sp.:0.0028930,JN255738.1_Symbiodinium_sp.:0.0021690)87:0.0007010)12:0.0000030,((AF271291.1_Symbiodinium_sp.:0.0058300,AJ271775.1_Symbiodinium_sp.:0.0029190)52:0.0006700,EF036539.1_Symbiodinium_goreaui:0.0000030)9:0.0000030)11:0.0000030,((((AF290917.1_Symbiodinium_sp.:0.0014370,AF290918.1_Symbiodinium_sp.:0.0014310)99:0.0021590,(AY051089.1_Symbiodinium_sp.:0.0000030,AY139192.1_Symbiodinium_sp.:0.0000030)100:0.0050670)99:0.0029120,AF238259.1_Symbiodinium_sp._Type_C2:0.0050730)48:0.0006890,(AY525027.1_Symbiodinium_sp.:0.0021590,AB126926.1_Symbiodinium:0.0021490)97:0.0007170)11:0.0000030)13:0.0000030,(AJ271766.1_Symbiodinium_sp.:0.0050380,JN255739.1_Symbiodinium_sp.:0.0021540)85:0.0007180)11:0.0000030,(AB126928.1_Symbiodinium:0.0094760,AF238260.1_Symbiodinium_sp.:0.0036350)27:0.0006750)9:0.0000030,AF238258.1_Symbiodinium_sp._Type_C:0.0050570)10:0.0000030,AB016580.1_Symbiodinium_sp.:0.0007180)10:0.0000030,(AY051099.1_Symbiodinium_sp.:0.0043210,(AB126929.1_Symbiodinium:0.0035870,AB126930.1_Symbiodinium:0.0021480)26:0.0000030)38:0.0007150)11:0.0000030,KC816631.1_Symbiodinium_sp._clade_C:0.0021490)9:0.0000030,(AB085912.1_Symbiodinium_sp.:0.0000030,AB016595.1_Symbiodinium_sp.:0.0000030)100:0.0007150)12:0.0000030,AJ271761.1_Symbiodinium_sp.:0.0021480)9:0.0000030,AB126931.1_Symbiodinium:0.0043190)11:0.0000030,JN255737.1_Symbiodinium_sp.:0.0035980)10:0.0000030,DQ838542.1_Symbiodinium_sp._clade_D:0.0064960)11:0.0000030,(AJ271776.1_Symbiodinium_sp.:0.0035930,((AB016539.1_Symbiodinium_sp.:0.0000000,RF17Acorrigido:0.0000000):0.0000000,RF32corrigido:0.0000000):0.0000030)9:0.0000030)96:0.0014340,((U10893.1_Symbiodinium_sp.:0.0043330,((LK934666.1_Symbiodinium_kawagutii:0.0000000,HQ822131.1_Symbiodinium_kawagutii:0.0000000):0.0000030,AB016594.1_Symbiodinium_sp.:0.0000030)100:0.0007180)43:0.0000030,LK934673.1_Symbiodinium_sp.:0.0000030)100:0.0028830)99:0.0031270)91:0.0032750,(AB016578.1_Symbiodinium:0.0029070,(AB055914.1_Symbiodinium_sp.:0.0064820,(((AF238262.1_Symbiodinium:0.0035780,AF238261.1_Symbiodinium_sp._Type_E:0.0021440)43:0.0000030,KC848881.1_Symbiodinium_sp._clade:0.0000030)99:0.0028610,AB055915.1_Symbiodinium_sp.:0.0000030)48:0.0000020)92:0.0043280)80:0.0008480)99:0.0062110)100:0.0116800)100:0.0233780);
+
+TIME STAMP
+----------
+
+Date and time: Fri Sep  9 08:33:06 2016
+Total CPU time used: 116.9949 seconds (0h:1m:56s)
+Total wall-clock time used: 69.14285 seconds (0h:1m:9s)
+

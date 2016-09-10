@@ -1,0 +1,380 @@
+IQ-TREE multicore version 1.4.4 for Mac OS X 64-bit built Aug 28 2016
+Copyright (c) 2011-2015 Nguyen Lam Tung, Olga Chernomor, Arndt von Haeseler and Bui Quang Minh.
+
+Host:    mmg-class-mac.local (SSE4.1, 4 GB RAM)
+Command: /Applications/iqtree-omp -s /Users/picciani/Dropbox/Manuscritos/Latitudinal/Para_submeter/Marine_Biology_III/Analises_18S/aqua/manual_trimming/marine-biology/iqtree-7/all.fasta.muscle-trimmed.fasta -m TIM2+G4 -numstop 600 -nt 2 -bb 1000 -nm 5000 -pre rep4
+Seed:    71621 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep  9 11:58:38 2016
+Kernel:  SSE3 - 2 threads (2 CPU cores detected)
+
+Reading alignment file /Users/picciani/Dropbox/Manuscritos/Latitudinal/Para_submeter/Marine_Biology_III/Analises_18S/aqua/manual_trimming/marine-biology/iqtree-7/all.fasta.muscle-trimmed.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 148 sequences with 1422 columns and 469 patterns (201 informative sites)
+                                                                    Gap/Ambiguity  Composition  p-value
+   1  GU362426_Gymnodinium_catenatum                                        0.70%    passed     98.10%
+   2  EF492511                                                              0.00%    passed     96.50%
+   3  JF791031                                                              1.34%    passed     96.97%
+   4  AY160124.1_Symbiodinium_sp._G15                                       0.00%    passed     97.19%
+   5  HE653239_Symbiodinium_voratum                                         0.00%    passed     97.63%
+   6  AJ271758.1_Symbiodinium_sp.                                           0.14%    passed     99.15%
+   7  AJ271759.1_Symbiodinium_sp.                                           0.14%    passed     98.49%
+   8  AJ271754.1_Symbiodinium_sp.                                           0.14%    passed     99.97%
+   9  AJ271756.1_Symbiodinium_sp.                                           0.14%    passed     97.52%
+  10  AJ271764.1_Symbiodinium_sp.                                           0.14%    passed     99.20%
+  11  L13718.1_Symbiodinium_meandrinae                                      0.28%    passed     99.94%
+  12  KU188508.1_Symbiodinium_sp.                                           0.28%    passed     99.97%
+  13  AB055917.1_Symbiodinium_sp.                                           0.21%    passed     97.35%
+  14  AJ271757.1_Symbiodinium_sp.                                           0.14%    passed     99.49%
+  15  AB863030.1_Symbiodinium_sp.                                           0.14%    passed     99.21%
+  16  AB016579.1_Symbiodinium_sp.                                           0.14%    passed     99.09%
+  17  AB016572.1_Symbiodinium_sp.                                           0.14%    passed     99.09%
+  18  AB183640.1_Symbiodinium_sp.                                           0.14%    passed     99.09%
+  19  L13717.1_Symbiodinium_corculorum                                      0.49%    passed     99.94%
+  20  AB055918.1_Symbiodinium_sp.                                           0.14%    passed     99.97%
+  21  X62650.1_S.pilosum                                                    0.21%    passed     99.60%
+  22  AB016723.1_Symbiodinium_sp.                                           0.14%    passed     99.96%
+  23  AB016724.1_Symbiodinium_sp.                                           0.14%    passed     99.89%
+  24  KU188515.1_Symbiodinium_sp.                                           0.28%    passed     99.86%
+  25  KU188511.1_Symbiodinium_sp.                                           0.28%    passed     99.80%
+  26  KU188514.1_Symbiodinium_sp.                                           0.28%    passed     99.59%
+  27  AF238256.1_Symbiodinium_sp._Type_A                                    0.14%    passed     99.87%
+  28  KU188513.1_Symbiodinium_sp.                                           0.28%    passed     99.58%
+  29  KU188510.1_Symbiodinium_sp.                                           0.28%    passed     99.89%
+  30  KU188509.1_Symbiodinium_sp.                                           0.28%    passed     99.80%
+  31  AY456113.1_Symbiodinium_sp.                                           0.14%    passed     99.67%
+  32  LK934669.1_Symbiodinium_microadriaticum                               0.14%    passed     99.90%
+  33  LK934672.1_Symbiodinium_sp.                                           0.14%    passed     99.90%
+  34  AB085913.1_Symbiodinium_sp.                                           0.14%    passed     99.90%
+  35  KC848879.1_Symbiodinium_sp._clade_A                                   1.27%    passed     99.22%
+  36  M88521.1_Symbiodinium_microadriaticum                                 0.14%    passed     99.90%
+  37  AB016574.1_Symbiodinium_sp.                                           0.21%    passed     99.80%
+  38  AB016581.1_Symbiodinium_sp.                                           0.14%    passed     99.87%
+  39  AR10corrigido                                                         0.14%    passed     99.87%
+  40  LK934674.1_Symbiodinium_sp.                                           0.14%    passed     99.87%
+  41  BZ17corrigido                                                         0.14%    passed     99.87%
+  42  AR4corrigido1                                                         0.14%    passed     99.87%
+  43  AR2corrigido                                                          0.14%    passed     99.87%
+  44  AB016573.1_Symbiodinium_sp.                                           0.14%    passed     99.87%
+  45  AB085911.1_Symbiodinium_sp.                                           0.14%    passed     99.87%
+  46  AR11corrigido                                                         0.14%    passed     99.87%
+  47  AR1corrigido                                                          1.83%    passed     99.22%
+  48  AR3corrigido3                                                         0.14%    passed     99.87%
+  49  AR8corrigido1                                                         0.14%    passed     99.87%
+  50  BZ19corrigido                                                         0.14%    passed     99.87%
+  51  AF238257.1_Symbiodinium_sp._Type_B                                    0.00%    passed     99.90%
+  52  AY443023.1_Symbiodinium_sp.                                           0.07%    passed     99.70%
+  53  AY937258.1_Symbiodinium_sp.                                           0.00%    passed     99.90%
+  54  SS07corrigido                                                         0.00%    passed     99.66%
+  55  BZ14corrigido                                                         0.00%    passed     99.66%
+  56  SS08corrigido                                                         1.83%    passed     97.90%
+  57  BZ15corrigido                                                         2.60%    passed     99.86%
+  58  AY456111.1_Symbiodinium_microadriaticum                               0.00%    passed     99.77%
+  59  M88509.1_Symbiodinium_sp.                                             0.00%    passed     99.90%
+  60  LK934670.1_Symbiodinium_minutum                                       0.00%    passed     99.86%
+  61  LK934663.1_Symbiodinium_microadriaticum                               0.00%    passed     99.93%
+  62  LK934668.1_Symbiodinium_microadriaticum                               0.00%    passed     99.93%
+  63  AB016722.2_Symbiodinium_sp.                                           0.00%    passed     99.93%
+  64  AB085915.1_Symbiodinium_sp.                                           0.00%    passed     99.93%
+  65  KC848880.1_Symbiodinium_sp._clade_B_18S_ribosomal_RNA_gene_partial    1.13%    passed     99.96%
+  66  AB016578.1_Symbiodinium                                               0.21%    passed     98.21%
+  67  AB055914.1_Symbiodinium_sp.                                           0.00%    passed     99.77%
+  68  AF238262.1_Symbiodinium                                               0.00%    passed     99.16%
+  69  AB055915.1_Symbiodinium_sp.                                           0.00%    passed     99.11%
+  70  AF238261.1_Symbiodinium_sp._Type_E                                    0.00%    passed     99.43%
+  71  KC848881.1_Symbiodinium_sp._clade                                     1.13%    passed     99.71%
+  72  HM067613.1_Symbiodinium_sp.                                           0.00%    passed     99.43%
+  73  HM067608.1_Symbiodinium_sp.                                           0.00%    passed     99.20%
+  74  HM067612.1_Symbiodinium_sp.                                           0.07%    passed     99.54%
+  75  EF419290.1_Symbiodinium_sp._clade_C                                   0.00%    passed     98.74%
+  76  EF419291.1_Symbiodinium_sp._clade_C                                   0.00%    passed     96.99%
+  77  AY051091.1_Symbiodinium_sp.                                           0.00%    passed     99.95%
+  78  AY051090.1_Symbiodinium_sp.                                           0.00%    passed     99.99%
+  79  AY051094.1_Symbiodinium_sp.                                           0.00%    passed     99.93%
+  80  AY051093.1_Symbiodinium_sp.                                           0.00%    passed     99.50%
+  81  KU197083.1_Symbiodinium_sp._clade_C                                   0.00%    passed    100.00%
+  82  EF419285.1_Symbiodinium_sp._clade_C                                   0.00%    passed     99.98%
+  83  EF419286.1_Symbiodinium_sp._clade_C                                   0.00%    passed     99.76%
+  84  EF419287.1_Symbiodinium_sp._clade_C                                   0.00%    passed    100.00%
+  85  EF419284.1_Symbiodinium_sp._clade_C                                   0.00%    passed     99.00%
+  86  AJ271777.1_Symbiodinium_sp.                                           0.07%    passed     99.20%
+  87  AJ271774.1_Symbiodinium_sp.                                           0.00%    passed     99.76%
+  88  AB126928.1_Symbiodinium                                               0.00%    passed     99.70%
+  89  AF290917.1_Symbiodinium_sp.                                           0.00%    passed     98.74%
+  90  AF290918.1_Symbiodinium_sp.                                           0.00%    passed     97.07%
+  91  AY051089.1_Symbiodinium_sp.                                           0.00%    passed     97.02%
+  92  AY139192.1_Symbiodinium_sp.                                           0.00%    passed     97.02%
+  93  EF419283.1_Symbiodinium_sp._clade_C                                   0.00%    passed    100.00%
+  94  AY051095.1_Symbiodinium_sp.                                           0.14%    passed     99.89%
+  95  AJ271767.1_Symbiodinium_sp.                                           0.00%    passed     99.93%
+  96  AB030646.1_Symbiodinium_sp.                                           0.00%    passed     99.10%
+  97  AF271292.1_Symbiodinium_sp.                                           0.00%    passed     98.35%
+  98  AJ271762.1_Symbiodinium_sp.                                           0.00%    passed     99.43%
+  99  DQ838542.1_Symbiodinium_sp._clade_D                                   0.07%    passed     98.22%
+ 100  AF271291.1_Symbiodinium_sp.                                           0.00%    passed     99.98%
+ 101  EF419288.1_Symbiodinium_sp._clade_C                                   0.00%    passed     99.57%
+ 102  AJ271773.1_Symbiodinium_sp.                                           0.00%    passed     98.61%
+ 103  KC816640.1_Symbiodinium_sp._clade_C                                   0.00%    passed     99.33%
+ 104  AY525027.1_Symbiodinium_sp.                                           0.35%    passed     98.36%
+ 105  AJ271766.1_Symbiodinium_sp.                                           0.07%    passed     99.96%
+ 106  AF238259.1_Symbiodinium_sp._Type_C2                                   0.00%    passed     98.11%
+ 107  U10893.1_Symbiodinium_sp.                                             0.21%    passed     99.53%
+ 108  AJ271760.1_Symbiodinium_sp.                                           0.00%    passed     97.77%
+ 109  AJ271765.1_Symbiodinium_sp.                                           0.00%    passed     99.77%
+ 110  LK934673.1_Symbiodinium_sp.                                           0.00%    passed     99.32%
+ 111  LK934666.1_Symbiodinium_kawagutii                                     0.00%    passed     98.67%
+ 112  AB016594.1_Symbiodinium_sp.                                           0.00%    passed     98.67%
+ 113  HQ822131.1_Symbiodinium_kawagutii                                     0.00%    passed     98.67%
+ 114  JN255733.1_Symbiodinium_sp.                                           0.00%    passed     99.79%
+ 115  JN255734.1_Symbiodinium_sp.                                           0.00%    passed     99.89%
+ 116  AY051099.1_Symbiodinium_sp.                                           0.14%    passed     99.96%
+ 117  AF238258.1_Symbiodinium_sp._Type_C                                    0.07%    passed     99.98%
+ 118  AB126931.1_Symbiodinium                                               0.07%    passed     98.52%
+ 119  AJ271768.1_Symbiodinium_sp.                                           0.00%    passed     99.80%
+ 120  AB126929.1_Symbiodinium                                               0.00%    passed     99.86%
+ 121  AF238260.1_Symbiodinium_sp.                                           0.00%    passed     99.93%
+ 122  KC816670.1_Symbiodinium_sp._clade_C                                   0.00%    passed     99.57%
+ 123  AF255737.1_Symbiodinium_sp.                                           0.00%    passed     99.97%
+ 124  AJ271776.1_Symbiodinium_sp.                                           0.14%    passed     99.20%
+ 125  JN255737.1_Symbiodinium_sp.                                           0.00%    passed     99.82%
+ 126  DQ838543.1_Symbiodinium_sp._type_C                                    0.00%    passed     99.93%
+ 127  AJ271775.1_Symbiodinium_sp.                                           0.00%    passed     99.41%
+ 128  AB055911.1_Symbiodinium_sp.                                           0.00%    passed     98.86%
+ 129  KC816632.1_Symbiodinium_sp._clade_C                                   0.00%    passed     99.87%
+ 130  KC816659.1_Symbiodinium_sp._clade_C                                   0.00%    passed     99.70%
+ 131  JN255739.1_Symbiodinium_sp.                                           0.00%    passed     99.98%
+ 132  AB126930.1_Symbiodinium                                               0.00%    passed     99.95%
+ 133  JN255738.1_Symbiodinium_sp.                                           0.00%    passed     98.89%
+ 134  AB126926.1_Symbiodinium                                               0.00%    passed     99.84%
+ 135  AB055916.1_Symbiodinium_sp.                                           0.14%    passed     99.85%
+ 136  KC816660.1_Symbiodinium_sp._clade_C                                   0.00%    passed     99.57%
+ 137  AJ271761.1_Symbiodinium_sp.                                           0.00%    passed     99.80%
+ 138  KC848882.1_Symbiodinium_sp._clade_C                                   1.13%    passed     99.84%
+ 139  KC816631.1_Symbiodinium_sp._clade_C                                   0.00%    passed     98.85%
+ 140  AB016580.1_Symbiodinium_sp.                                           0.42%    passed     99.99%
+ 141  EF419289.1_Symbiodinium_sp._clade_C                                   0.00%    passed     99.98%
+ 142  AB016539.1_Symbiodinium_sp.                                           0.00%    passed     99.95%
+ 143  EF036539.1_Symbiodinium_goreaui                                       0.00%    passed     99.95%
+ 144  RF32corrigido                                                         0.00%    passed     99.95%
+ 145  RF17Acorrigido                                                        0.00%    passed     99.95%
+ 146  RF33Acorrigido                                                        0.70%    passed     99.93%
+ 147  AB085912.1_Symbiodinium_sp.                                           0.00%    passed     99.79%
+ 148  AB016595.1_Symbiodinium_sp.                                           0.00%    passed     99.79%
+****  TOTAL                                                                 0.16%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 18 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AB183640.1_Symbiodinium_sp. (identical to AB016579.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: AB085913.1_Symbiodinium_sp. (identical to LK934669.1_Symbiodinium_microadriaticum) is ignored but added at the end
+NOTE: M88521.1_Symbiodinium_microadriaticum (identical to LK934669.1_Symbiodinium_microadriaticum) is ignored but added at the end
+NOTE: LK934674.1_Symbiodinium_sp. (identical to AB016581.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: BZ17corrigido (identical to AB016581.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: AR4corrigido1 (identical to AB016581.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: AR2corrigido (identical to AB016581.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: AB016573.1_Symbiodinium_sp. (identical to AB016581.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: AB085911.1_Symbiodinium_sp. (identical to AB016581.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: AR11corrigido (identical to AB016581.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: AR3corrigido3 (identical to AB016581.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: AR8corrigido1 (identical to AB016581.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: BZ19corrigido (identical to AB016581.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: AB016722.2_Symbiodinium_sp. (identical to LK934663.1_Symbiodinium_microadriaticum) is ignored but added at the end
+NOTE: AB085915.1_Symbiodinium_sp. (identical to LK934663.1_Symbiodinium_microadriaticum) is ignored but added at the end
+NOTE: HQ822131.1_Symbiodinium_kawagutii (identical to LK934666.1_Symbiodinium_kawagutii) is ignored but added at the end
+NOTE: RF32corrigido (identical to AB016539.1_Symbiodinium_sp.) is ignored but added at the end
+NOTE: RF17Acorrigido (identical to AB016539.1_Symbiodinium_sp.) is ignored but added at the end
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 71621)...
+
+NOTE: 9 MB RAM is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -7711.159
+2. Current log-likelihood: -7101.091
+3. Current log-likelihood: -7100.928
+Optimal log-likelihood: -7100.885
+Rate parameters:  A-C: 1.417  A-G: 5.340  A-T: 1.417  C-G: 1.000  C-T: 10.111  G-T: 1.000
+Base frequencies:   A: 0.263  C: 0.190  G: 0.269  T: 0.278
+Gamma shape alpha: 0.854
+Parameters optimization took 3 rounds (0.743 sec)
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Computing ML distances based on estimated model parameters... 0.226 sec
+Computing BIONJ tree...
+0.033 seconds
+Log-likelihood of BIONJ tree: -7119.102
+Generating 98 parsimony trees... 2.218 seconds 100 distinct starting trees
+Computing log-likelihood of 100 initial trees ... 6.402 seconds
+Optimizing top 20 initial trees with NNI...
+Iteration 1 / LogL: -7087.620 / Time: 0h:0m:10s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7087.272
+Iteration 2 / LogL: -7088.533 / Time: 0h:0m:10s
+Iteration 3 / LogL: -7088.633 / Time: 0h:0m:11s
+Iteration 4 / LogL: -7088.539 / Time: 0h:0m:11s
+Iteration 5 / LogL: -7090.058 / Time: 0h:0m:12s
+Iteration 6 / LogL: -7091.195 / Time: 0h:0m:12s
+Iteration 7 / LogL: -7090.959 / Time: 0h:0m:12s
+Iteration 8 / LogL: -7090.917 / Time: 0h:0m:13s
+Iteration 9 / LogL: -7092.113 / Time: 0h:0m:13s
+Iteration 10 / LogL: -7091.224 / Time: 0h:0m:14s
+Iteration 11 / LogL: -7092.584 / Time: 0h:0m:14s
+Iteration 12 / LogL: -7092.615 / Time: 0h:0m:14s
+Iteration 13 / LogL: -7092.661 / Time: 0h:0m:15s
+Iteration 14 / LogL: -7092.844 / Time: 0h:0m:15s
+Iteration 15 / LogL: -7092.960 / Time: 0h:0m:15s
+Iteration 16 / LogL: -7093.003 / Time: 0h:0m:16s
+Iteration 17 / LogL: -7093.143 / Time: 0h:0m:16s
+Iteration 18 / LogL: -7093.287 / Time: 0h:0m:16s
+Iteration 19 / LogL: -7093.213 / Time: 0h:0m:17s
+Iteration 20 / LogL: -7093.351 / Time: 0h:0m:17s
+Average CPU time for 1 NNI search: 0.737
+Finish initializing candidate tree set. Number of distinct locally optimal trees: 20
+Current best tree score: -7087.272 / CPU time: 28.734
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -7103.568 / Time: 0h:0m:24s (0h:7m:56s left)
+Iteration 40 / LogL: -7093.115 / Time: 0h:0m:29s (0h:7m:7s left)
+Iteration 50 / LogL: -7087.047 / Time: 0h:0m:34s (0h:6m:29s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 50: -7087.026
+Log-likelihood cutoff on original alignment: -7138.874
+Iteration 60 / LogL: -7097.375 / Time: 0h:0m:41s (0h:6m:57s left)
+Iteration 70 / LogL: -7093.382 / Time: 0h:0m:47s (0h:6m:36s left)
+Iteration 80 / LogL: -7133.722 / Time: 0h:0m:53s (0h:6m:21s left)
+Iteration 90 / LogL: -7094.290 / Time: 0h:0m:57s (0h:6m:3s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 94: -7085.794
+Iteration 100 / LogL: -7109.589 / Time: 0h:1m:5s (0h:6m:32s left)
+Log-likelihood cutoff on original alignment: -7138.874
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+Iteration 110 / LogL: -7103.200 / Time: 0h:1m:12s (0h:6m:26s left)
+Iteration 120 / LogL: -7103.414 / Time: 0h:1m:17s (0h:6m:13s left)
+Iteration 130 / LogL: -7121.790 / Time: 0h:1m:24s (0h:6m:8s left)
+Iteration 140 / LogL: -7099.804 / Time: 0h:1m:30s (0h:6m:1s left)
+Iteration 150 / LogL: -7221.358 / Time: 0h:1m:36s (0h:5m:53s left)
+Log-likelihood cutoff on original alignment: -7138.874
+Iteration 160 / LogL: -7085.790 / Time: 0h:1m:43s (0h:5m:48s left)
+Iteration 170 / LogL: -7106.449 / Time: 0h:1m:50s (0h:5m:40s left)
+Iteration 180 / LogL: -7087.715 / Time: 0h:1m:56s (0h:5m:34s left)
+Iteration 190 / LogL: -7085.133 / Time: 0h:2m:2s (0h:5m:26s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 190: -7085.039
+Iteration 200 / LogL: -7092.549 / Time: 0h:2m:11s (0h:6m:28s left)
+Log-likelihood cutoff on original alignment: -7138.874
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Iteration 210 / LogL: -7097.201 / Time: 0h:2m:19s (0h:6m:27s left)
+Iteration 220 / LogL: -7105.765 / Time: 0h:2m:26s (0h:6m:21s left)
+Iteration 230 / LogL: -7090.293 / Time: 0h:2m:34s (0h:6m:16s left)
+Iteration 240 / LogL: -7102.765 / Time: 0h:2m:42s (0h:6m:13s left)
+Iteration 250 / LogL: -7093.398 / Time: 0h:2m:49s (0h:6m:6s left)
+Log-likelihood cutoff on original alignment: -7138.874
+Iteration 260 / LogL: -7085.040 / Time: 0h:2m:58s (0h:6m:5s left)
+Iteration 270 / LogL: -7091.299 / Time: 0h:3m:8s (0h:6m:4s left)
+Iteration 280 / LogL: -7106.584 / Time: 0h:3m:15s (0h:5m:57s left)
+Iteration 290 / LogL: -7090.505 / Time: 0h:3m:23s (0h:5m:51s left)
+Iteration 300 / LogL: -7085.039 / Time: 0h:3m:31s (0h:5m:46s left)
+Log-likelihood cutoff on original alignment: -7138.874
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 310 / LogL: -7105.181 / Time: 0h:3m:38s (0h:5m:39s left)
+Iteration 320 / LogL: -7094.573 / Time: 0h:3m:46s (0h:5m:32s left)
+Iteration 330 / LogL: -7136.641 / Time: 0h:3m:54s (0h:5m:27s left)
+Iteration 340 / LogL: -7085.042 / Time: 0h:4m:1s (0h:5m:20s left)
+Iteration 350 / LogL: -7092.487 / Time: 0h:4m:10s (0h:5m:15s left)
+Log-likelihood cutoff on original alignment: -7138.874
+Iteration 360 / LogL: -7100.562 / Time: 0h:4m:19s (0h:5m:11s left)
+Iteration 370 / LogL: -7109.856 / Time: 0h:4m:29s (0h:5m:6s left)
+Iteration 380 / LogL: -7117.212 / Time: 0h:4m:35s (0h:4m:58s left)
+Iteration 390 / LogL: -7127.383 / Time: 0h:4m:44s (0h:4m:52s left)
+Iteration 400 / LogL: -7090.120 / Time: 0h:4m:51s (0h:4m:45s left)
+Log-likelihood cutoff on original alignment: -7138.874
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 410 / LogL: -7125.204 / Time: 0h:5m:1s (0h:4m:40s left)
+Iteration 420 / LogL: -7093.468 / Time: 0h:5m:10s (0h:4m:34s left)
+Iteration 430 / LogL: -7086.044 / Time: 0h:5m:18s (0h:4m:26s left)
+Iteration 440 / LogL: -7085.999 / Time: 0h:5m:27s (0h:4m:20s left)
+Iteration 450 / LogL: -7087.553 / Time: 0h:5m:36s (0h:4m:14s left)
+Log-likelihood cutoff on original alignment: -7138.874
+Iteration 460 / LogL: -7101.510 / Time: 0h:5m:50s (0h:4m:11s left)
+Iteration 470 / LogL: -7085.251 / Time: 0h:5m:58s (0h:4m:4s left)
+Iteration 480 / LogL: -7090.531 / Time: 0h:6m:11s (0h:4m:0s left)
+Iteration 490 / LogL: -7086.740 / Time: 0h:6m:21s (0h:3m:54s left)
+Iteration 500 / LogL: -7098.030 / Time: 0h:6m:31s (0h:3m:47s left)
+Log-likelihood cutoff on original alignment: -7138.874
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 510 / LogL: -7085.256 / Time: 0h:6m:40s (0h:3m:40s left)
+Iteration 520 / LogL: -7086.422 / Time: 0h:6m:51s (0h:3m:34s left)
+Iteration 530 / LogL: -7085.331 / Time: 0h:7m:0s (0h:3m:26s left)
+Iteration 540 / LogL: -7085.033 / Time: 0h:7m:11s (0h:3m:20s left)
+Iteration 550 / LogL: -7091.900 / Time: 0h:7m:20s (0h:3m:12s left)
+Log-likelihood cutoff on original alignment: -7138.874
+Iteration 560 / LogL: -7117.404 / Time: 0h:7m:31s (0h:3m:5s left)
+Iteration 570 / LogL: -7137.125 / Time: 0h:7m:39s (0h:2m:57s left)
+Iteration 580 / LogL: -7106.289 / Time: 0h:7m:49s (0h:2m:50s left)
+Iteration 590 / LogL: -7098.670 / Time: 0h:7m:58s (0h:2m:42s left)
+Iteration 600 / LogL: -7156.767 / Time: 0h:8m:8s (0h:2m:34s left)
+Log-likelihood cutoff on original alignment: -7138.874
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 610 / LogL: -7108.839 / Time: 0h:8m:24s (0h:2m:29s left)
+Iteration 620 / LogL: -7087.531 / Time: 0h:8m:35s (0h:2m:21s left)
+Iteration 630 / LogL: -7102.802 / Time: 0h:8m:44s (0h:2m:13s left)
+Iteration 640 / LogL: -7102.831 / Time: 0h:8m:54s (0h:2m:5s left)
+Iteration 650 / LogL: -7090.805 / Time: 0h:9m:3s (0h:1m:57s left)
+Log-likelihood cutoff on original alignment: -7138.874
+Iteration 660 / LogL: -7087.465 / Time: 0h:9m:16s (0h:1m:49s left)
+Iteration 670 / LogL: -7116.565 / Time: 0h:9m:26s (0h:1m:41s left)
+Iteration 680 / LogL: -7102.066 / Time: 0h:9m:39s (0h:1m:33s left)
+Iteration 690 / LogL: -7139.265 / Time: 0h:10m:7s (0h:1m:28s left)
+Iteration 700 / LogL: -7088.991 / Time: 0h:10m:20s (0h:1m:19s left)
+Log-likelihood cutoff on original alignment: -7138.874
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 710 / LogL: -7135.568 / Time: 0h:10m:33s (0h:1m:20s left)
+Iteration 720 / LogL: -7108.667 / Time: 0h:10m:57s (0h:1m:13s left)
+Iteration 730 / LogL: -7127.389 / Time: 0h:11m:9s (0h:1m:4s left)
+Iteration 740 / LogL: -7111.270 / Time: 0h:11m:37s (0h:0m:56s left)
+Iteration 750 / LogL: -7107.516 / Time: 0h:11m:48s (0h:0m:47s left)
+Log-likelihood cutoff on original alignment: -7138.874
+Iteration 760 / LogL: -7105.805 / Time: 0h:12m:0s (0h:0m:37s left)
+Iteration 770 / LogL: -7085.037 / Time: 0h:12m:12s (0h:0m:28s left)
+Iteration 780 / LogL: -7106.378 / Time: 0h:12m:24s (0h:0m:19s left)
+Iteration 790 / LogL: -7100.921 / Time: 0h:12m:36s (0h:0m:9s left)
+TREE SEARCH COMPLETED AFTER 790 ITERATIONS / Time: 0h:12m:37s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7085.031
+Optimal log-likelihood: -7085.024
+Rate parameters:  A-C: 1.471  A-G: 5.411  A-T: 1.471  C-G: 1.000  C-T: 10.396  G-T: 1.000
+Base frequencies:   A: 0.263  C: 0.190  G: 0.269  T: 0.278
+Gamma shape alpha: 0.875
+Parameters optimization took 1 rounds (0.170 sec)
+BEST SCORE FOUND : -7085.024
+Creating bootstrap support values...
+Split supports printed to NEXUS file rep4.splits.nex
+Total tree length: 0.543
+
+Total number of iterations: 790
+CPU time used for tree search: 1116.436 sec (0h:18m:36s)
+Wall-clock time used for tree search: 756.655 sec (0h:12m:36s)
+Total CPU time used: 1120.447 sec (0h:18m:40s)
+Total wall-clock time used: 759.621 sec (0h:12m:39s)
+
+Computing bootstrap consensus tree...
+Reading input file rep4.splits.nex...
+130 taxa and 3481 splits.
+Consensus tree written to rep4.contree
+Log-likelihood of consensus tree: -7085.268
+Reading input trees file rep4.contree
+
+Analysis results written to: 
+  IQ-TREE report:                rep4.iqtree
+  Maximum-likelihood tree:       rep4.treefile
+  Likelihood distances:          rep4.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          rep4.splits.nex
+  Consensus tree:                rep4.contree
+  Screen log file:               rep4.log
+
+Date and Time: Fri Sep  9 12:11:19 2016
